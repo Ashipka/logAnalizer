@@ -3,11 +3,11 @@ Spring batch application for events log file analysis.
 
 Use next command line params:
 --filePath
---chunkSize
---alertEventInterval
+--chunkSize[Optional]
+--alertEventInterval[Optional]
 
 Example:
-D:\Projects\logAnalizer\build\libs>java -jar logAnalizer-1.0-SNAPSHOT.jar --filePath=D:/Temp/json.json --chunkSize=100 --alertEventInterval=1
+D:\Projects\logAnalizer\build\libs>java -jar logAnalizer-1.0-SNAPSHOT.jar --filePath=D:/Temp/json.json --chunkSize=100 --alertEventInterval=4
 
 Result in console:
 
